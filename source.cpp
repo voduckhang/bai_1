@@ -12,6 +12,7 @@ int main()
 	cout << "Nhap so nguyen 2: ";
 	cin >> b;
 	cout << "Chon phep toan (+,-) ";
+	
 	cin >> phepToan;
 	if(hieu()){
 		cout<<"Hieu la:"<<hieu()
@@ -19,7 +20,13 @@ int main()
 	system("pause");
 	return 0;
 }
+<<<<<<< HEAD
 int hieu(int a, int b){
 	int hieu=a-b;
 	return hieu;
+=======
+int tong(int a, int b){
+	int tong=a+b;
+	return tong;
+>>>>>>> 6796b6ae59b19808c15dd3a834133dcdabe1400c
 }
