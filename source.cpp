@@ -12,7 +12,12 @@ int main()
 	cout << "Nhap so nguyen 2: ";
 	cin >> b;
 	cout << "Chon phep toan (+,-) ";
+	
 	cin >> phepToan;
 	system("pause");
 	return 0;
+}
+int tong(int a, int b){
+	int tong=a+b;
+	return tong;
 }
